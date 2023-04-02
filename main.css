@@ -5,10 +5,12 @@
   list-style: none;
 }
 
-.kutu, body .container .box1 {
+.kutu, body .container .box2, body .container .box1 {
   height: 200px;
   width: 200px;
   background-color: #ff3838;
+  float: left;
+  margin-right: 10px;
 }
 
 body {
