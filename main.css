@@ -5,6 +5,12 @@
   list-style: none;
 }
 
+.kutu, body .container .box1 {
+  height: 200px;
+  width: 200px;
+  background-color: #ff3838;
+}
+
 body {
   background-color: #ffb8b8;
 }
@@ -34,4 +40,10 @@ body .container header ul li a {
 }
 body .container header ul li a:hover {
   color: #7d5fff;
+}
+body .container .box {
+  height: 500px;
+  width: 700px;
+  margin: 20px auto;
+  background-color: #7d5fff;
 }/*# sourceMappingURL=main.css.map */
