@@ -8,6 +8,10 @@ $main-color: #ffb8b8;
 $header: #ff3838;
 $box: #7d5fff;
 $frame: #67e6dc;
+@mixin border {
+     border: 5px solid black;
+
+}
 
 .kutu{
      height: 200px;
@@ -54,6 +58,7 @@ body {
     }
     .box1{
      @extend .kutu;
+     @include border();
     }
     .box2{
      @extend .kutu
