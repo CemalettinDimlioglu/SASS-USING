@@ -9,6 +9,12 @@ $header: #ff3838;
 $box: #7d5fff;
 $frame: #67e6dc;
 
+.kutu{
+     height: 200px;
+     width: 200px;
+     background-color: $header;
+}
+
 body {
   background-color: $main-color;
   .container {
@@ -37,6 +43,15 @@ body {
           }
         }
       }
+    }
+    .box{
+     height: 500px;
+     width: 700px;
+     margin: 20px auto;
+     background-color: $box;
+    }
+    .box1{
+     @extend .kutu;
     }
   }
 }
