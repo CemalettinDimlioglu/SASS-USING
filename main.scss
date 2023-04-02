@@ -13,6 +13,8 @@ $frame: #67e6dc;
      height: 200px;
      width: 200px;
      background-color: $header;
+     float: left;
+     margin-right: 10px;
 }
 
 body {
@@ -52,6 +54,9 @@ body {
     }
     .box1{
      @extend .kutu;
+    }
+    .box2{
+     @extend .kutu
     }
   }
 }
