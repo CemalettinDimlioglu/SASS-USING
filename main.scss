@@ -8,8 +8,10 @@ $main-color: #ffb8b8;
 $header: #ff3838;
 $box: #7d5fff;
 $frame: #67e6dc;
-@mixin border {
-     border: 5px solid black;
+@mixin border($gen, $tip, $renk) {
+     border-width: $gen;
+     border-style: $tip;
+     border-color: $renk;
 
 }
 
@@ -58,10 +60,12 @@ body {
     }
     .box1{
      @extend .kutu;
-     @include border();
+     @include border(4px, dashed, blue);
     }
     .box2{
-     @extend .kutu
+     @extend .kutu;
+     @include border(7px, solid, green);
+
     }
   }
 }
