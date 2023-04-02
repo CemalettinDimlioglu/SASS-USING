@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+$main-color: #ffb8b8;
+$header: #ff3838;
+$box: #7d5fff;
+$frame: #67e6dc;
+
+body {
+  background-color: $main-color;
+  .container {
+    height: 1000px;
+    width: 900px;
+    margin: 0px auto;
+    background-color: $frame;
+    header {
+      height: 50px;
+      width: 900px;
+      background-color: $header;
+      ul {
+        li {
+          float: left;
+          a {
+               display: block;
+               height: 50px;
+               line-height: 50px;text-align: center;
+               width: 150px;
+               text-decoration: none;
+               font-size: 24px;
+               color: $main-color;
+               &:hover{
+                    color: $box;
+               }
+          }
+        }
+      }
+    }
+  }
+}
